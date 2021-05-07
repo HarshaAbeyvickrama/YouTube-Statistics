@@ -1,6 +1,6 @@
 //Replace the deployId of your apps script project in the below string
 
-var deployId = 'AKfycbxkarHPbxrnSvARCn2P4tEXq7u_qUmbPH7C-uFtRclraXSl6Ws4Vwquqn6xLThA82Z1Cg';
+var deployId = 'Your Deploy ID here';
 
 //A proxy is used to avoid the CORS errors
 var proxy = 'https://cors.bridged.cc/';
@@ -18,6 +18,7 @@ async function addVideo(){
     getResponse = async () => {
         var response = res;
         //handle the response here
+        console.log(response[1])
         
     };
     getResponse();
@@ -35,6 +36,8 @@ async function getPublicVideos(){
         var response = res;
         //handle the response here
         console.log(response);
+        console.log(response[1].title);
+        console.log(response[1].channel);
         
     };
     getResponse();
@@ -44,7 +47,7 @@ async function getPublicVideos(){
 //============================= Get the statistics for a given video ====================================
 
 async function getVideoStats(){
-    var videoId = 'W3WKN4-kbqI';
+    var videoId = document.getElementById('id').value;
     urlFinal = `${url}?action=getVideoStats&id=${videoId}`;
     var res = await fetch(urlFinal);
     res = await res.json();
