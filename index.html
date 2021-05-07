@@ -8,7 +8,21 @@
     <script src="index.js"></script>
 </head>
 <body>
+    
+    <input type="text" name="id" id="id">
+    <button onclick="getStats()">stats</button>
+    <br>
     <input type="text" name="url" id="url">
-    <button onclick="test()">Add video</button>
+    <button onclick="addVideo()">Add video</button>
+    <button onclick="getPublicVideos()">Getvideo</button>
+    <button onclick="getChannelVideos()">GetChannel</button>
+    <button onclick="getUserVideos()">Get User Videos</button>
+    <br>
+    <input type="text" name="channelUrl" id="channelUrl">
+    <button onclick="addChannel()">Add Channel</button>
+    <br>
+    <button onclick="cors()">CORS</button>
+    <div id='thumb'></div>
+    
 </body>
 </html>

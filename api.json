@@ -1,0 +1,57 @@
+{
+    "kind": "youtube#channelListResponse",
+    "etag": "cxATmiLYrilPDgAazuGcEu5u2jg",
+    "pageInfo": {
+      "totalResults": 1,
+      "resultsPerPage": 5
+    },
+    "items": [
+      {
+        "kind": "youtube#channel",
+        "etag": "5MnX0Y30Pcs2nZdbw0upE573Nyo",
+        "id": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+        "snippet": {
+          "title": "Google Developers",
+          "description": "The Google Developers channel features talks from events, educational series, best practices, tips, and the latest updates across our products and platforms.\n\nSubscribe to Google Developers → https://goo.gle/developers\n",
+          "customUrl": "googledevelopers",
+          "publishedAt": "2007-08-23T00:34:43Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.ggpht.com/ytc/AAUvwngOju7AKiAvKEs1wtsZN366tyNPyMq3nD8eFkMF7bE=s88-c-k-c0x00ffffff-no-rj",
+              "width": 88,
+              "height": 88
+            },
+            "medium": {
+              "url": "https://yt3.ggpht.com/ytc/AAUvwngOju7AKiAvKEs1wtsZN366tyNPyMq3nD8eFkMF7bE=s240-c-k-c0x00ffffff-no-rj",
+              "width": 240,
+              "height": 240
+            },
+            "high": {
+              "url": "https://yt3.ggpht.com/ytc/AAUvwngOju7AKiAvKEs1wtsZN366tyNPyMq3nD8eFkMF7bE=s800-c-k-c0x00ffffff-no-rj",
+              "width": 800,
+              "height": 800
+            }
+          },
+          "localized": {
+            "title": "Google Developers",
+            "description": "The Google Developers channel features talks from events, educational series, best practices, tips, and the latest updates across our products and platforms.\n\nSubscribe to Google Developers → https://goo.gle/developers\n"
+          },
+          "country": "US"
+        },
+        "contentDetails": {
+          "relatedPlaylists": {
+            "likes": "",
+            "favorites": "",
+            "uploads": "UU_x5XG1OV2P6uZZ5FSM9Ttw"
+          }
+        },
+        "statistics": {
+          "viewCount": "182464105",
+          "subscriberCount": "2160000",
+          "hiddenSubscriberCount": false,
+          "videoCount": "5314"
+        }
+      }
+    ]
+  }
+  
