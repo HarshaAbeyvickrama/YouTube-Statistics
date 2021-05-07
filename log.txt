@@ -1,0 +1,182 @@
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(1): error C1999: syntax error.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(2): error C1999: Illegal statement.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(4): error C1999: syntax error.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(4): error C1999: Invalid case label: must be constant number or string.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(10): error C1999: syntax error.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(10): error C1999: Invalid case label: must be constant number or string.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(14): error C1999: syntax error.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(14): error C1999: Invalid case label: must be constant number or string.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(19): error C1999: syntax error.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(19): error C1999: Invalid case label: must be constant number or string.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(23): error C1999: syntax error.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(23): error C1999: Invalid case label: must be constant number or string.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(27): error C1999: syntax error.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(27): error C1999: Invalid case label: must be constant number or string.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(31): error C1999: syntax error.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(31): error C1999: Invalid case label: must be constant number or string.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(32): error C1999: syntax error.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(32): error C1999: Illegal statement.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(33): error C1999: syntax error.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(33): error C1999: Illegal statement.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(33): error C1999: syntax error.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(33): error C1999: Illegal statement.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(33): error C1999: Do not support code block, it's conflict with map creating, please try 'do { block }'; 
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(34): error C1999: syntax error.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(34): error C1999: Illegal statement.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(36): error C1999: Do not support code block, it's conflict with map creating, please try 'do { block }'; 
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(38): error C1999: Break mismatched loop or switch.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(40): error C1999: syntax error.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(40): error C1999: Illegal statement.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(43): error C1999: Break mismatched loop or switch.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(45): error C1999: syntax error.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(45): error C1999: Illegal statement.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(52): error C1999: syntax error.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(52): error C1999: Illegal statement.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(64): error C1999: syntax error.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(64): error C1999: Illegal statement.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(64): error C1999: syntax error.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(64): error C1999: Illegal statement.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(67): error C1999: syntax error.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(67): error C1999: Illegal statement.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(67): error C1999: syntax error.
+[2;37;0m
+Fri May  7 23:35:20 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Code.gs(67): error C1999: Illegal statement.
+[2;37;0m
+Fri May  7 23:35:20 2021 Max errors(64) exceeded.
+Compiler terminated
+Fri May  7 23:35:20 2021  At /Code.gs
+Fri May  7 23:35:20 2021 [1;31mError(-1): Compile stoped (-602).[2;37;0m
+Coroutine: co[11:v1]boot
+Domain: domain[0:v1]zero [local call]
+[1;31mAt unknown:0[2;37;0m (get_script_info) in object[29:v1]
+  Argument file_name = "/Code.gs"
+  Argument type = 1
+Domain: domain[0:v1]zero [local call]
+[1;31mAt file://C:/Users/VH/gslang_editor/load_script.gs:42[2;37;0m (try_compile) in object[29:v1]
+  Argument file_path = "/Code.gs"
+  Variable realpath = "c:/Users/VH/Desktop/YouTubeRanker/Code.gs"
+  Variable info = nil
+Domain: domain[0:v1]zero [local call]
+[1;31mAt file://C:/Users/VH/gslang_editor/load_script.gs:65[2;37;0m (main) in object[29:v1]
+  Variable $catch_ret_6 = nil
+Domain: domain[0:v1]zero [local call]
+[1;31mAt file://C:/Users/VH/gslang_editor/load_script.gs:70[2;37;0m (::entry) in object[29:v1]
+  Variable $catch_ret_7 = nil
+  Property _EDITOR_CFG_DIR = "C:\Users\VH/gslang_editor"
+  Property pre_time = 1620410720
+At <Internal routine>
+Fri May  7 23:35:24 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Server.gs(6): error C1999: syntax error.
+[2;37;0m
+Fri May  7 23:35:24 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Server.gs(6): error C1999: Illegal statement.
+[2;37;0m
+Fri May  7 23:35:24 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Server.gs(7): error C1999: syntax error.
+[2;37;0m
+Fri May  7 23:35:24 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Server.gs(7): error C1999: Illegal statement.
+[2;37;0m
+Fri May  7 23:35:24 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Server.gs(9): error C1999: syntax error.
+[2;37;0m
+Fri May  7 23:35:24 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Server.gs(9): error C1999: Illegal statement.
+[2;37;0m
+Fri May  7 23:35:24 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Server.gs(25): error C1999: syntax error.
+[2;37;0m
+Fri May  7 23:35:24 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Server.gs(25): error C1999: Illegal statement.
+[2;37;0m
+Fri May  7 23:35:24 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Server.gs(26): error C1999: syntax error.
+[2;37;0m
+Fri May  7 23:35:24 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Server.gs(26): error C1999: Illegal statement.
+[2;37;0m
+Fri May  7 23:35:24 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Server.gs(42): error C1999: syntax error.
+[2;37;0m
+Fri May  7 23:35:24 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Server.gs(51): error C1999: Illegal statement.
+[2;37;0m
+Fri May  7 23:35:24 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Server.gs(51): error C1999: syntax error.
+[2;37;0m
+Fri May  7 23:35:24 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Server.gs(51): error C1999: Illegal statement.
+[2;37;0m
+Fri May  7 23:35:24 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Server.gs(81): error C1999: syntax error.
+[2;37;0m
+Fri May  7 23:35:24 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Server.gs(81): error C1999: Illegal statement.
+[2;37;0m
+Fri May  7 23:35:24 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Server.gs(82): error C1999: syntax error.
+[2;37;0m
+Fri May  7 23:35:24 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Server.gs(82): error C1999: Illegal statement.
+[2;37;0m
+Fri May  7 23:35:24 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Server.gs(83): error C1999: syntax error.
+[2;37;0m
+Fri May  7 23:35:24 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Server.gs(83): error C1999: Illegal statement.
+[2;37;0m
+Fri May  7 23:35:24 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Server.gs(83): error C1999: syntax error.
+[2;37;0m
+Fri May  7 23:35:24 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Server.gs(83): error C1999: Illegal statement.
+[2;37;0m
+Fri May  7 23:35:24 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Server.gs(83): error C1999: Do not support code block, it's conflict with map creating, please try 'do { block }'; 
+[2;37;0m
+Fri May  7 23:35:24 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Server.gs(84): error C1999: syntax error.
+[2;37;0m
+Fri May  7 23:35:24 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Server.gs(84): error C1999: Illegal statement.
+[2;37;0m
+Fri May  7 23:35:24 2021 [1;31mc:/Users/VH/Desktop/YouTubeRanker/Server.gs(92): error C1999: syntax error.
+[2;37;0m
+Fri May  7 23:35:24 2021 Max errors(64) exceeded.
+Compiler terminated
+Fri May  7 23:35:24 2021  At /Server.gs
+Fri May  7 23:35:24 2021 [1;31mError(-1): Compile stoped (-602).[2;37;0m
+Coroutine: co[11:v1]boot
+Domain: domain[0:v1]zero [local call]
+[1;31mAt unknown:0[2;37;0m (get_script_info) in object[29:v1]
+  Argument file_name = "/Server.gs"
+  Argument type = 1
+Domain: domain[0:v1]zero [local call]
+[1;31mAt file://C:/Users/VH/gslang_editor/load_script.gs:42[2;37;0m (try_compile) in object[29:v1]
+  Argument file_path = "/Server.gs"
+  Variable realpath = "c:/Users/VH/Desktop/YouTubeRanker/Server.gs"
+  Variable info = nil
+Domain: domain[0:v1]zero [local call]
+[1;31mAt file://C:/Users/VH/gslang_editor/load_script.gs:65[2;37;0m (main) in object[29:v1]
+  Variable $catch_ret_6 = nil
+Domain: domain[0:v1]zero [local call]
+[1;31mAt file://C:/Users/VH/gslang_editor/load_script.gs:70[2;37;0m (::entry) in object[29:v1]
+  Variable $catch_ret_7 = nil
+  Property _EDITOR_CFG_DIR = "C:\Users\VH/gslang_editor"
+  Property pre_time = 1620410724
+At <Internal routine>
