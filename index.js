@@ -1,6 +1,6 @@
 //Replace the deployId of your apps script project in the below string
 
-var deployId = 'Your Deploy ID here';
+var deployId = 'deploy ID';
 
 //A proxy is used to avoid the CORS errors
 var proxy = 'https://cors.bridged.cc/';
@@ -15,13 +15,7 @@ async function addVideo(){
     urlAddVideo = `${url}?action=addPublicVideo&type=public&url=${videoUrl}`;
     var res = await fetch(urlAddVideo);
     res = await res.json();
-    getResponse = async () => {
-        var response = res;
-        //handle the response here
-        console.log(response[1])
-        
-    };
-    getResponse();
+    return res;
 }
 
 //===================================== Retrieve a list of all Public videos ======================================================
@@ -32,15 +26,7 @@ async function getPublicVideos(){
     urlGetVideos = `${url}?action=getPublicVideos`;
     var res = await fetch(urlGetVideos);
     res = await res.json();
-    getResponse = async () => {
-        var response = res;
-        //handle the response here
-        console.log(response);
-        console.log(response[1].title);
-        console.log(response[1].channel);
-        
-    };
-    getResponse();
+    return res;
     
 }
 
@@ -51,14 +37,7 @@ async function getVideoStats(){
     urlFinal = `${url}?action=getVideoStats&id=${videoId}`;
     var res = await fetch(urlFinal);
     res = await res.json();
-    getResponse = async () => {
-        var response = res;
-        //handle the response here
-        data = response;
-        console.log(data);
-        
-    };
-    getResponse();
+    return res;
     
 }
 
@@ -72,12 +51,7 @@ async function addChannel(){
     let urlFinal = `${url}?action=addNewChannel&channelUrl=${channelUrl}`;
     var res = await fetch(urlFinal);
     res = await res.json();
-    getResponse = async () => {
-        var response = res;
-        //handle the response here
-        console.log(response);
-    };
-    getResponse();
+    return res;
 }
 
 //============================= Retrieve a list of all channels currently monitored ======================================================
@@ -86,12 +60,7 @@ async function getAllChannels(){
     let urlFinal = `${url}?action=getAllChannels`;
     var res = await fetch(urlFinal);
     res = await res.json();
-    getResponse = async () => {
-        var response = res;
-        //handle the response here
-        console.log(response)
-    };
-    getResponse();
+    return res;
 }
  
 //=========================================== Get a channel videos by Channel ID ======================================================
@@ -101,30 +70,19 @@ async function getChannelVideos(){
     let urlFinal = `${url}?action=getChannel&channelId=`;
     var res = await fetch(urlFinal);
     res = await res.json();
-    getResponse = async () => {
-        var response = res;
-        //handle the response here
-        console.log(response);
-        
-    };
-    getResponse();
+    return res;
 }
   
 //======================================= Get user channel videos ================================================================
 
 async function getUserVideos(){
-    var channelId = '';
     let urlFinal = `${url}?action=getUserVideos`;
     var res = await fetch(urlFinal);
     res = await res.json();
-    getResponse = async () => {
-        var response = res;
-        //handle the response here
-        // console.log(response);
-        console.log(response);
-        
-    };
-    getResponse();
+    return res;
+    
+
+
 }
   
 // var link = `https://img.youtube.com/vi/${res[i].id}/hqdefault.jpg`;
