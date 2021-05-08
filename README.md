@@ -52,6 +52,7 @@
       <a href="#usage">Usage</a>
       <ul>
         <li><a href="#Functions">Functions</a></li>
+        <li><a href="#CORS-Error">CORS Error</a></li>
       </ul>
     </li>
     <li><a href="#roadmap">Roadmap</a></li>
@@ -134,10 +135,18 @@ Clone the YouTube-Statistics
 
 8. `resetDatabse()` :   <i>Reset the database by clearing all the records in the main sheets and deleting all the extra sheets created for channels.</i>
 
+### CORS Error
 
+If you get a CORS error in your console you can fix that by following the below steps
+
+1. Create a new folder anywhere you want
+2. Copy the absolute path of that newly created folder
+3. Replace the `path\to\your\folder` with the path you just copied in `runChrome.bat` file.
+4. Then double click that `runChrome.bat` file and it will open a chrome window in `web security diabled` mode.There will a warning in the top of the browser. Just ignore that ☺
+5. You are good to go !
 
 <!-- ROADMAP -->
-## Roadmapgit
+## Roadmap
 
 See the [open issues](https://github.com/HarshaAbeyvickrama/YouTube-Statistics/issues) for a list of proposed features (and known issues).
 
