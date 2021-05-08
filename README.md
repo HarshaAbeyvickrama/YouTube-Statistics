@@ -184,7 +184,7 @@ Project Link: [https://github.com/HarshaAbeyvickrama/YouTube-Statistics](https:/
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* [Virange Gunarathne](https://www.linkedin.com/in/viranga-gunarathna-3322981a5/)
+* [Viranga Gunarathne](https://www.linkedin.com/in/viranga-gunarathna-3322981a5/)
 * [Awantha Irushan](https://www.linkedin.com/in/avantha-irushan-b68792191/)
 
 
