@@ -8,7 +8,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/HarshaAbeyvickrama/YouTube-Statistics.git">
-    <img src="images/YouTube-Statistics.png" alt="Logo" width="80" height="80">
+    <img src="images/YouTubeStatistics.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">YouTube Statistics</h3>
@@ -19,7 +19,7 @@
     <a href="https://github.com/HarshaAbeyvickrama/YouTube-Statistics/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/HarshaAbeyvickrama/YouTube-Statistics">View Demo</a>
+    <!-- <a href="https://github.com/HarshaAbeyvickrama/YouTube-Statistics">View Demo</a> -->
     ·
     <a href="https://github.com/HarshaAbeyvickrama/YouTube-Statistics/issues">Report Bug</a>
     ·
@@ -67,9 +67,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-YouTube-Statistics is a project created to analyze YouTube videos and channels. This project can monitor the changes in a youtube video or a channel added to the database or the videos of the user uploads. This project is created in the purpose of automating the reseach work done around youtube statistics.
+YouTube Statistics is a project created to analyze YouTube videos and channels. This project can monitor the changes in views , likes, comments of a youtube video or new video uploads of a channel added to the database or the videos of the user uploads. This project is created in the purpose of automating the reseach work done around youtube statistics.
 
 <i>You can use this project freely and contribute to make it better</i>
 
