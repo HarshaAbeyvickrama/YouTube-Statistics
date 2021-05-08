@@ -7,23 +7,23 @@
 
 <br />
 <p align="center">
-  <a href="https://github.com/HarshaAbeyvickrama/YouTubeRanker.git">
-    <img src="images/YouTubeRanker.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/HarshaAbeyvickrama/YouTube-Statistics.git">
+    <img src="images/YouTube-Statistics.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">YouTubeRanker</h3>
+  <h3 align="center">YouTube Statistics</h3>
 
   <p align="center">
     YouTube Statistics Analyzer
     <br />
-    <a href="https://github.com/HarshaAbeyvickrama/YouTubeRanker/"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/HarshaAbeyvickrama/YouTube-Statistics/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/HarshaAbeyvickrama/YouTubeRanker">View Demo</a>
+    <a href="https://github.com/HarshaAbeyvickrama/YouTube-Statistics">View Demo</a>
     ·
-    <a href="https://github.com/HarshaAbeyvickrama/YouTubeRanker/issues">Report Bug</a>
+    <a href="https://github.com/HarshaAbeyvickrama/YouTube-Statistics/issues">Report Bug</a>
     ·
-    <a href="https://github.com/HarshaAbeyvickrama/YouTubeRanker/issues">Request Feature</a>
+    <a href="https://github.com/HarshaAbeyvickrama/YouTube-Statistics/issues">Request Feature</a>
   </p>
 </p>
 
@@ -69,7 +69,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-YouTubeRanker is a project created to analyze YouTube videos and channels. This project can monitor the changes in a youtube video or a channel added to the database or the videos of the user uploads. This project is created in the purpose of automating the reseach work done around youtube statistics.
+YouTube-Statistics is a project created to analyze YouTube videos and channels. This project can monitor the changes in a youtube video or a channel added to the database or the videos of the user uploads. This project is created in the purpose of automating the reseach work done around youtube statistics.
 
 <i>You can use this project freely and contribute to make it better</i>
 
@@ -100,9 +100,9 @@ To get a local copy up and running follow these simple steps.
 
 ### Making a local copy
 
-Clone the YouTubeRanker
+Clone the YouTube-Statistics
 ```sh
-  git clone https://github.com/HarshaAbeyvickrama/YouTubeRanker.git
+  git clone https://github.com/HarshaAbeyvickrama/YouTube-Statistics.git
 ```
 
 ### Apps Script trigger setup
@@ -128,18 +128,18 @@ Clone the YouTubeRanker
 4. `getPublicVideos()` :  <i>Returns a JSON response of all videos that are added to the sheet with addPublicVideo() function</i>
 5. `getVideoStats(videoID)` :   <i>Returns a JSON response of a particular video that is currently available in the database</i>
 6. `addNewChannel(ChannelLink)` :   <i>Add a YouTube channel to the sheet to monitor. This function will add all videos in that channel to the database and it will monitor their views, comments & like count seperately.</i>
-6. `getChannel(channelID)` :   <i>Returns a JSON response with the details a particular channel</i>
+7. `getChannel(channelID)` :   <i>Returns a JSON response with the details a particular channel</i>
 
 <strong>Here,  a separate sheet will be created with the name of the video ID for every video added to the sheet. This is applicable for all user videos and addition of channels<strong>
 
-
+8. `resetDatabse()` :   <i>Reset the database by clearing all the records in the main sheets and deleting all the extra sheets created for channels.</i>
 
 
 
 <!-- ROADMAP -->
-## Roadmap
+## Roadmapgit
 
-See the [open issues](https://github.com/HarshaAbeyvickrama/YouTubeRanker/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/HarshaAbeyvickrama/YouTube-Statistics/issues) for a list of proposed features (and known issues).
 
 
 
@@ -168,7 +168,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Harsha Abeyvickrama - [@VHAbeyvickrama](https://twitter.com/VHAbeyvickrama) - harshaabeyvickrama@gmail.com
 
-Project Link: [https://github.com/HarshaAbeyvickrama/YouTubeRanker](https://github.com/HarshaAbeyvickrama/YouTubeRanker)
+Project Link: [https://github.com/HarshaAbeyvickrama/YouTube-Statistics](https://github.com/HarshaAbeyvickrama/YouTube-Statistics)
 
 
 
@@ -185,15 +185,15 @@ Project Link: [https://github.com/HarshaAbeyvickrama/YouTubeRanker](https://gith
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/HarshaAbeyvickrama/YouTubeRanker.svg?style=for-the-badge
-[contributors-url]: https://github.com/HarshaAbeyvickrama/YouTubeRanker/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/HarshaAbeyvickrama/YouTubeRanker.svg?style=for-the-badge
-[forks-url]: https://github.com/HarshaAbeyvickrama/YouTubeRanker/network/members
-[stars-shield]: https://img.shields.io/github/stars/HarshaAbeyvickrama/YouTubeRanker.svg?style=for-the-badge
-[stars-url]: https://github.com/HarshaAbeyvickrama/YouTubeRanker/stargazers
-[issues-shield]: https://img.shields.io/github/issues/HarshaAbeyvickrama/YouTubeRanker.svg?style=for-the-badge
-[issues-url]: https://github.com/HarshaAbeyvickrama/YouTubeRanker/issues
-[license-shield]: https://img.shields.io/github/license/HarshaAbeyvickrama/YouTubeRanker.svg?style=for-the-badge
-[license-url]: https://github.com/HarshaAbeyvickrama/YouTubeRanker/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/HarshaAbeyvickrama/YouTube-Statistics.svg?style=for-the-badge
+[contributors-url]: https://github.com/HarshaAbeyvickrama/YouTube-Statistics/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/HarshaAbeyvickrama/YouTube-Statistics.svg?style=for-the-badge
+[forks-url]: https://github.com/HarshaAbeyvickrama/YouTube-Statistics/network/members
+[stars-shield]: https://img.shields.io/github/stars/HarshaAbeyvickrama/YouTube-Statistics.svg?style=for-the-badge
+[stars-url]: https://github.com/HarshaAbeyvickrama/YouTube-Statistics/stargazers
+[issues-shield]: https://img.shields.io/github/issues/HarshaAbeyvickrama/YouTube-Statistics.svg?style=for-the-badge
+[issues-url]: https://github.com/HarshaAbeyvickrama/YouTube-Statistics/issues
+[license-shield]: https://img.shields.io/github/license/HarshaAbeyvickrama/YouTube-Statistics.svg?style=for-the-badge
+[license-url]: https://github.com/HarshaAbeyvickrama/YouTube-Statistics/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/harshaabeyvickrama
