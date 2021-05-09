@@ -1,0 +1,200 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+.mainHeader{
+    font-size: 50px;
+    padding-left: 35px;
+    color: white;
+    position: relative;
+    width: 100%;
+} 
+
+* {
+    box-sizing: border-box;
+    background-color: #1f1d2b;
+  }
+
+.contents{
+    width: 100vw;
+}
+.container{
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.tableContainer{
+    padding-top: 60px;
+}
+
+.tableContainer th h1 {
+	  font-weight: bold;
+	  font-size: 1em;
+  text-align: left;
+  color: #d6d6d6;
+  background-color: transparent;
+}
+
+.tableContainer td {
+    text-align: center;
+	  font-weight: normal;
+	  font-size: 1.2em;
+      color: #d6d6d6;
+  -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+	   -moz-box-shadow: 0 2px 2px -2px #0E1119;
+	        box-shadow: 0 2px 2px -2px #0E1119;
+}
+
+.tableContainer {
+	  text-align: left;
+	  overflow: hidden;
+	  width: 80%;
+	  margin: 0 auto;
+  display: table;
+  padding: 0 0 8em 0;
+}
+
+.tableContainer td, .tableContainer th {
+	  padding-bottom: 2%;
+	  padding-top: 2%;
+  padding-left:2%;  
+}
+
+/* Background-color of the odd rows */
+.tableContainer tr:nth-child(odd) {
+	  background-color: #323C50;
+}
+
+/* Background-color of the even rows */
+.tableContainer tr:nth-child(even) {
+	  background-color: #2C3446;
+}
+
+.tableContainer th {
+	  background-color: #1F2739;
+}
+
+.tableContainer td:first-child { color: #FB667A; }
+
+.tableContainer tr:hover {
+   background-color: #464A52;
+-webkit-box-shadow: 0 6px 6px -6px #0E1119;
+	   -moz-box-shadow: 0 6px 6px -6px #0E1119;
+	        box-shadow: 0 6px 6px -6px #0E1119;
+}
+
+.tableContainer td:hover {
+  background-color: #FFF842;
+  color: #403E10;
+  font-weight: bold;
+  
+  box-shadow: #7F7C21 -1px 1px, #7F7C21 -2px 2px, #7F7C21 -3px 3px, #7F7C21 -4px 4px, #7F7C21 -5px 5px, #7F7C21 -6px 6px;
+  transform: translate3d(6px, -6px, 0);
+  
+  transition-delay: 0s;
+	  transition-duration: 0.4s;
+	  transition-property: all;
+  transition-timing-function: line;
+}
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+    padding: 10px;
+  }
+
+.column h3{
+    color: #d6d6d6;
+    padding-left: 35px;
+    padding-top: 20px;
+}
+.column h3 span{
+    color: #d6d6d6;
+    font-size: 0.8em;
+    /* padding-left: 20px; */
+    margin: 40px;
+}
+.video-p-title {
+  font-size: 24px;
+  color: #fff;
+  line-height: 1.4em;
+  margin: 16px 0 20px;
+}
+.video-p-subtitle {
+  font-size: 14px;
+  line-height: 1.5em;
+  max-width: 60ch;
+  color: #d6d6d6;
+}
+.video-p-subtitle + .video-p-subtitle {
+  margin-top: 16px;
+}
+.video-wrapper{
+  position: relative;
+}
+/* .video {
+  position: relative;
+  background-color: #252936;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: 0.4s;
+}
+.video-name {
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.4em;
+  padding: 12px 20px 0;
+  overflow: hidden;
+  background-color:#252936;
+  z-index: 9;
+  position: relative;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.video-view {
+  font-size: 12px;
+  padding: 12px 20px 20px;
+  background-color: #252936;
+  position: relative;
+}
+.video-by {
+  transition: 0.3s;
+  padding: 20px 20px 0px;
+  display: inline-flex;
+  position: relative;
+}
+.anim {
+  -webkit-animation: bottom 0.8s 0s both;
+          animation: bottom 0.8s 0s both;
+} */
+
+.videoCard{
+  border-radius: 10px;
+  margin: 5px;
+  float: left;
+  position: relative;
+  /* border: 1px solid red; */
+  width: 350px;
+  height: 300px;
+  background-color: #252936;
+}
+.videoCard *{
+  background-color: transparent;
+}
+.videoCard:hover{
+  cursor: pointer;
+}
+.videoCard ,.video-name,.video-view{
+  color: #d6d6d6;
+}
+.videoCard .video-name{
+  padding: 15px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 200;
+}
+

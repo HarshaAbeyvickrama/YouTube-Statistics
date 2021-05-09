@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="video.css">
+    <script src="api.js"></script>
+    
+    <title>Channel</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="row">
+            <div class="column">
+                <div class="video-wrapper">
+                    <img height="240px" style="border-radius: 50%; padding: 10px;" width="240px" src="" alt="" id="thumbnail" >
+                </div>
+            </div>
+            <div class="column">
+                <div class="video-p-title anim" style="--delay: .2s" id="channelTitle"></div>
+                <div class="video-p-subtitle anim" style="--delay: .3s" id="channelDescription"></div>
+                
+            </div>
+        </div>
+        <div id="channelVideos"></div>
+        
+
+
+    </div> 
+</body>
+</html>
+
+
+
+<script>
+    var url_string =window.location.href;
+    var urls = new URL(url_string);
+    var id = urls.searchParams.get("id");
+
+    getAllChannels().then(res => {
+        console.log(res);
+        let div = document.getElementById('sec2');
+        for(let i=0;i<res.length;i++){
+            if(id == res[i].channelId){
+                let channelName = res[i].channelName;
+                let subscriberCount = res[i].subscriberCount;
+                let thumbnail = res[i].thumbnail;
+                let description = res[i].description;
+                document.getElementById('channelTitle').innerHTML = channelName;
+                document.getElementById('thumbnail').src = thumbnail;
+                document.getElementById('channelDescription').innerHTML = description;
+                break;
+            }
+        }
+    });
+
+    getChannelVideos(id).then(res =>{
+        for(let i=0;i<res.length;i++){
+            let channel = res[i].channelName;
+            let id = res[i].videoId;
+            let published = res[i].publishedDate;
+            let title = res[i].title;
+            // title = title.someStr.replace(/['"]+/g, '')
+            let div = document.getElementById('channelVideos');
+            var video = `
+                <div class=" anim videoCard" style="--delay: .4s" onclick="videoDetails('${id}','${title.replace(/['"]+/g, '')}','${published}','${channel}')">
+                    <div class="video-wrapper">
+                        <img src="https://img.youtube.com/vi/${id}/mqdefault.jpg"  alt="" >
+                    </div>
+                    
+                    <div class="video-name">${title}</div>
+                    <div class="video-view">Published At ${published}</div>
+                </div>`;
+            div.innerHTML += video;
+        }
+        
+    })
+    function videoDetails(id,title,date,channel){
+    location.href = `video.html?id=${id}&t=${title}&c=${channel}&d=${date}`;
+}
+
+
+
+</script>
