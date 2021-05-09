@@ -19,7 +19,7 @@
     <a href="https://github.com/HarshaAbeyvickrama/YouTube-Statistics/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <!-- <a href="https://github.com/HarshaAbeyvickrama/YouTube-Statistics">View Demo</a> -->
+    <a href="https://harshaabeyvickrama.github.io/YouTube-Statistics/index.html">View Demo</a>
     ·
     <a href="https://github.com/HarshaAbeyvickrama/YouTube-Statistics/issues">Report Bug</a>
     ·
