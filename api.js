@@ -10,8 +10,7 @@ let url = `${proxy}https://script.google.com/macros/s/${deployId}/exec`;
 let data = '';
 //===========================================Add a video by url==================================================
 
-async function addVideo(){
-    var videoUrl = document.getElementById('url').value;
+async function addVideo(videoUrl){
     urlAddVideo = `${url}?action=addPublicVideo&type=public&url=${videoUrl}`;
     var res = await fetch(urlAddVideo);
     res = await res.json();
@@ -45,8 +44,7 @@ async function getVideoStats(id){
 //The link inserted to add the channel should be in the folliwing format
 //https://www.youtube.com/channel/<channel ID Here>
 
-async function addChannel(){
-    var channelUrl = document.getElementById('channelUrl').value;
+async function addChannel(channelUrl){
     let urlFinal = `${url}?action=addNewChannel&channelUrl=${channelUrl}`;
     var res = await fetch(urlFinal);
     res = await res.json();

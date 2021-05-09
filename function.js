@@ -93,3 +93,23 @@ getAllChannels().then(res => {
   //  console.log(id);
    location.href = `channel.html?id=${id}`;
  }
+
+
+ function channelLink(){
+   var channelUrl = document.getElementById('channelLink').value;
+   addChannel(channelUrl).then(res =>{
+     if(res.isSuccess == tru){
+       console.log('channel Added');
+       location.reload();
+     }
+   })
+ }
+ function videoLink(){
+   var videoUrl = document.getElementById('videoLink').value;
+   addVideo(videoUrl).then(res =>{
+     if(res.isSuccess == tru){
+       console.log('Video Added');
+       location.reload();
+     }
+   })
+ }
