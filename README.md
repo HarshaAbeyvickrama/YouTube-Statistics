@@ -89,7 +89,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Spreadsheet setup
 
-1. Make of copy of the spreadsheet <a href="" class="button primary">here</a>. It already contains the Apps Script code from this repository.
+1. Make of copy of the spreadsheet <a href="https://docs.google.com/spreadsheets/d/1wFqoczU15mctB7NFuMFK4-jVjqAoUo_vtrnDCjEYHZs/edit?usp=sharing&resourcekey=0-nNhMQp4GLQejdLU8fw1vKw" class="button primary">here</a>. It already contains the Apps Script code from this repository.Make a copy of the sheet to your drive and use the copied version.
 2. Change the name of the Project to aything you want.
 
 ### YouTube Advanced Service setup

@@ -59,7 +59,7 @@ getPublicVideos().then(res => {
 
 
 function videoDetails(id,title,date,channel){
-    location.href = `video.html?id=${id}&t=${title}&c=${channel}&d=${date}`;
+    location.href = `Site/video.html?id=${id}&t=${title}&c=${channel}&d=${date}`;
 }
 
 getAllChannels().then(res => {
@@ -89,25 +89,36 @@ getAllChannels().then(res => {
  );
 
  function getChannel(id){
-   location.href = `channel.html?id=${id}`;
+   location.href = `./Site/channel.html?id=${id}`;
  }
 
 
  function channelLink(){
    var channelUrl = document.getElementById('channelLink').value;
+   console.log('channel  :'+channelUrl);
    addChannel(channelUrl).then(res =>{
-     if(res.isSuccess == tru){
+     if(res.isSuccess == true){
        console.log('channel Added');
        location.reload();
      }
-   })
+   }).catch(err =>{
+    console.log(err);
+   });
+   alert('Channel Added Succesfully')
+   location.reload(); 
  }
- function videoLink(){
+ function videoLink(videoUrl){
    var videoUrl = document.getElementById('videoLink').value;
+   console.log('video  :'+videoUrl)
    addVideo(videoUrl).then(res =>{
-     if(res.isSuccess == tru){
+     if(res.isSuccess == true){
        console.log('Video Added');
        location.reload();
      }
+   }).catch(err => {
+      console.log(err);
    })
+   alert('Video Added Succesfully')
+   location.reload(); 
  }
+;

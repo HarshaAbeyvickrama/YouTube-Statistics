@@ -101,10 +101,10 @@
     display: flex;
   }
   
-  .column {
+.column {
     flex: 50%;
     padding: 10px;
-  }
+}
 
 .column h3{
     color: #d6d6d6;
