@@ -63,7 +63,6 @@ function videoDetails(id,title,date,channel){
 }
 
 getAllChannels().then(res => {
-  console.log(res);
   let div = document.getElementById('sec2');
   for(let i=0;i<res.length;i++){
     let channelName = res[i].channelName;
@@ -90,7 +89,6 @@ getAllChannels().then(res => {
  );
 
  function getChannel(id){
-  //  console.log(id);
    location.href = `channel.html?id=${id}`;
  }
 
