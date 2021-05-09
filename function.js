@@ -59,7 +59,7 @@ getPublicVideos().then(res => {
 
 
 function videoDetails(id,title,date,channel){
-    location.href = `Site/video.html?id=${id}&t=${title}&c=${channel}&d=${date}`;
+    location.href = `video.html?id=${id}&t=${title}&c=${channel}&d=${date}`;
 }
 
 getAllChannels().then(res => {
@@ -89,7 +89,7 @@ getAllChannels().then(res => {
  );
 
  function getChannel(id){
-   location.href = `./Site/channel.html?id=${id}`;
+   location.href = `channel.html?id=${id}`;
  }
 
 
