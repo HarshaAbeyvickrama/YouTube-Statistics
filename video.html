@@ -67,7 +67,18 @@
     document.getElementById('title').innerHTML = title;
    
     getVideoStats(id).then(res => {
+        // console.log(res)
         for(let i=0 ; i<res.length;i++){
+            
+            const currentDate = new Date(res[i].date);
+            const currentDayOfMonth = currentDate.getDate();
+            const currentMonth = currentDate.getMonth(); // Be careful! January is 0, not 1
+            const currentYear = currentDate.getFullYear();
+
+            const dateString = currentDayOfMonth + "/" + (currentMonth + 1) + "/" + currentYear;
+            // "27-11-2020"
+            // console.log(res[i].date)
+            // console.log(res[i].date.substring(0,10))
             var row = `
                 <tr>
                     <td>${res[i].date}</td>
