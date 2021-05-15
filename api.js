@@ -1,6 +1,6 @@
 //Replace the deployId of your apps script project in the below string
 
-var deployId = 'AKfycbyhmo_ySN9JvOKn9nivjVAAyyFGuODQ1JKEJVZlmX8heis2dHgVhwQpgQeG7SaBb06f0g';
+var deployId = 'AKfycbwOFs7-G-TIBVa_8KM_gzQblRW3qbFz0rR17C-ApCzJ4b_5WjrOs6XATg4fMxiLbwePFg';
 
 //A proxy is used to avoid the CORS errors
 var proxy = 'https://cors.bridged.cc/';
